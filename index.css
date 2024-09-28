@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 600px;
+    height: 600px;
+    background: #225675;
+    border: 20px solid #7dd9ff;
+    margin: 80px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.container button{
+    border: none;
+    outline: none;
+}
+.kbtn{
+    width: 200px;
+    height: 80px;
+    background: url(./png/开始战斗.png) center/contain no-repeat;
+    display: block;
+}
+.zbtn{
+    width: 70px;
+    height: 70px;
+    background: url(./png/开始按钮.png) center/contain no-repeat;
+    display: none;
+}
